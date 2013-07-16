@@ -293,9 +293,11 @@ Modeller yerine kendi tanımlayıcınızı kullanmak isteyebilirsiniz. Bunun iç
 ## 404 Hatalası Fırlatma
 
 404 hatasını tetiklemenin iki yolu vardır. İlki, `App::abort` metodu.
+
 	App::abort(404);
 
 İkinci, `Symfony\Component\HttpKernel\Exception\NotFoundHttpException` nesnesi oluşturmaktır.
+
 404 hatalarının yakalanması ve özel yanıtla oluşturulması hakkında daha fazla bilgiye dokümantasyonun [hatalar](/docs/errors#handling-404-errors) bölümünden ulaşabilirsiniz.
 <a name="routing-to-controllers"></a>
 ## Denetçilere Rotalama
